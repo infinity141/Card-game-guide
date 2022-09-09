@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+p {
+    font-size: large;
+    font-family: Book Antiqua;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-section {
+    height: 90vh;
+}
+
+.container {
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: Goudy Stout;
+    margin: 20px;
+}
+
+.smaller-text {
+    font-size: 15px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    font-family: Segoe UI;
+    font-weight: bold;
+}
+
+.nav ul li {
+    margin: 5px;
+    padding: 2px 0px;
+    border-bottom: 2px white solid;
+}
+
+.nav ul li:hover {
+    border-bottom: 2px cornflowerblue  solid;
+    cursor: pointer;
+}
+
+.content {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.card {
+    margin: 10px;
+    border-radius: 20px;
+    width: 270px;
+    height: 450px;
+    box-shadow: 5px 5px 20px 0px rgb(0 0 0 / 20%);
+    display: flex;
+    flex-direction: row;
+}
+
+.card.hidden {
+    visibility: hidden;
+    transition: all 400ms ease-in-out;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.left {
+    width: 216px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.left h1 {
+    font-size: xx-large;
+    font-family: OCR A;
+    margin: 10px 0px;
+}
+
+.left p {
+    margin: 10px 0px;
+}
+
+.right {
+    width: 54px;
+    height: inherit;
+    border-radius: 0 20px 20px 0;
+}
+
+.left-one h1 {
+    color: #dc143c;
+}
+
+.right-one {
+    background-color: #dc143c;
+}
+
+.left-two h1 {
+    color: #6495ed;
+}
+
+.right-two {
+    background-color: #6495ed;
+}
+
+.left-three h1 {
+    color: #008080;
+}
+
+.right-three {
+    background-color: #008080;
+}
+
+.left-four h1 {
+    color: #444;
+}
+
+.right-four {
+    background-color: #444;
+}
+
+.second-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.instructions h1 {
+    font-size: xx-large;
+    text-align: center;
+    font-family: OCR A;
+    margin: 50px;
+}
+
+.big-card {
+
+    width: 80%;
+    left: 50%;
+    top: 0%;
+
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0px rgb(0 0 0 / 20%);
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    position: absolute;
+    padding: 0 0 30px 0;
+
+    background-color: white;
+    visibility: hidden;
+    transform: scale(1) translate(-50%, -50%);
+    transform-origin: top left;
+    opacity: 0;
+    transition: all 400ms ease-in-out;
+}
+
+.big-card.visible {
+    top: 53%;
+    visibility: visible;
+    opacity: 1;
+}
+
+.tops {
+    width: 100%;
+    height: 20px;
+    border-radius: 20px 20px 0 0;
+}
+
+.tops:hover {
+    cursor: pointer;
+}
+
+.tops p {
+    color: white;
+    position: absolute;
+    left: 20px;
+    font-family: monospace;
+    font-size: xx-large;
+    position: fixed;
+    top: -5px;
+}
+
+.tops-crazy {
+    background-color: #dc143c;
+}
+
+.tops-conqure {
+    background-color: #6495ed;
+}
+
+.tops-sum {
+    background-color: #008080;
+}
+
+.tops-seca {
+    background-color: #444;
+}
+
+.bottoms h1 {
+    margin: 30px 0 10px 50px;
+    font-size: xx-large;
+    font-family: OCR A;
+}
+
+.bottoms ul {
+    margin: 0 70px 0 86px;
+    font-size: large;
+    list-style-type: circle;
+}
+
+.bottoms p {
+    margin: 30px;
+}
