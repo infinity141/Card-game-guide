@@ -1,0 +1,20 @@
+:root {
+    --mainColor: #fff;
+    --secondaryColor: #fff;
+
+    --crazyRight: brown;
+    --conquerRight: saddlebrown;
+    --sumRight: rgb(188, 96, 54);
+    --secaRight: chocolate;
+
+    --crazyRightText: brown;
+    --conquerRightText: saddlebrown;
+    --sumRightText: sienna;
+    --secaRightText: chocolate;
+  
+    --mainText: black;
+    --secondaryText: #fff;
+    --specialText: rgb(83, 37, 37);
+
+    --navbarUnderline: cornflowerblue;
+}
