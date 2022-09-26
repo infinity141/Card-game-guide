@@ -1,0 +1,15 @@
+:root {
+    --mainColor: #333;
+    --secondaryColor: #444;
+
+    --crazyRight: moccasin;
+    --conquerRight: bisque;
+    --sumRight: antiquewhite;
+    --secaRight: cornsilk;
+  
+    --mainText: #fff;
+    --secondaryText: black;
+    --specialText: #fff;
+
+    --navbarUnderline: cornflowerblue;
+}

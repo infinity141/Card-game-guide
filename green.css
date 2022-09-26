@@ -1,0 +1,13 @@
+:root {
+    --mainColor: #fff;
+    --secondaryColor: #fff;
+
+    --crazyRight: rgb(0, 100, 0);
+    --conquerRight: forestgreen;
+    --sumRight: green;
+    --secaRight: seagreen;
+  
+    --mainText: black;
+    --secondaryText: #fff;
+    --specialText: black;
+}

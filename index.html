@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GCG | Guide for Card Games</title>
     <link rel="stylesheet" href="style.css">
+
+    <link id="theme-style" rel="stylesheet" type="text/css" href="">
 </head>
 <body>
 
@@ -14,11 +16,11 @@
             <div class = "nav">
                 <h1 class="logo">Card Games<br><span class="smaller-text">Guide</span></h1>
                 <ul>
-                    <li>Dark</li>
-                    <li>Blue</li>
-                    <li>Green</li>
-                    <li>Brown</li>
-                    <li>Light</li>
+                    <li data-mode="dark" id="dark-mode" class="theme-dot">Dark</li>
+                    <li data-mode="blue" id="blue-mode" class="theme-dot">Blue</li>
+                    <li data-mode="green" id="green-mode" class="theme-dot">Green</li>
+                    <li data-mode="brown" id="brown-mode" class="theme-dot">Brown</li>
+                    <li data-mode="light" id="light-mode" class="theme-dot">Light</li>
                 </ul>
             </div>
 
@@ -34,7 +36,7 @@
                     <div class="bottoms-crazy bottoms">
                         <h1 class="names">Crazy</h1>
                         <ul>
-                            <p>The goal of the game is to finish every card on your hand by droping them all, for this there are some rules of dropping. Some cards will help you to drop cards and some cards will help you by making your opponents take up more cards or jump turns.</p>
+                            <li>The goal of the game is to finish every card on your hand by droping them all, for this there are some rules of dropping. Some cards will help you to drop cards and some cards will help you by making your opponents take up more cards or jump turns.</li>
                             <li>Shuffle the cards and give each player same amount of cards (usually 6) except for the first player (who gets +1 than everyone usually 7).</li>
                             <li>Put the rest of the card in the middle for everyone and players will draw cards from it when necessary.</li>
                             <li>Ace(Ace of spades) will make your opponent take 5 cards from the middle cards.</li>
@@ -47,8 +49,8 @@
                     </div>
                 </div>
 
-                <div class="big-card conqure-card" id="conqure-card" data-mode="nope">
-                    <div class="tops-conqure tops">
+                <div class="big-card conquer-card" id="conquer-card" data-mode="nope">
+                    <div class="tops-conquer tops">
                         <p>&LeftArrow;</p>
                     </div>
                     <div class="bottoms- bottoms">
@@ -118,7 +120,7 @@
                     <div class="right right-one"></div>
                 </div>
 
-                <div class="two-card card" data-mode="conqure" id="two-card">
+                <div class="two-card card" data-mode="conquer" id="two-card">
                     <div class="left left-two">
                         <h1>Conqure</h1>
                         <p>I have no idea what this one is about but until I find out let this text be a placeholder. I know there is a placeholder text called lorem ipsum but I'm not using that for some reasons!</p>
@@ -146,5 +148,6 @@
     </section>
 
     <script type="text/Javascript" src="script.js"></script>
+    <script type="text/Javascript" src="themes.js"></script>
 </body>
 </html>

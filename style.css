@@ -15,39 +15,18 @@
     --mainText: black;
     --secondaryText: #fff;
     --specialText: black;
-
-    --navbarUnderline: cornflowerblue;
 }
-
-/*   
-    --mainColor: #fff;
-    --secondaryColor: #fff;
-
-    --crazyRight: #dc143c;
-    --conquerRight: #6495ed;
-    --sumRight: #008080;
-    --secaRight: #444;
-
-    --crazyRightText: #dc143c;
-    --conquerRightText: #6495ed;
-    --sumRightText: #008080;
-    --secaRightText: #444;
-  
-    --mainText: black;
-    --secondaryText: #fff;
-    --specialText: black;
-
-    --navbarUnderline: cornflowerblue;
-*/
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    transition: 1s;
 }
 
 html, body {
     scroll-behavior: smooth;
+    background-color: var(--mainColor);
 }
 
 a {
@@ -112,7 +91,7 @@ p {
 }
 
 .nav ul li:hover {
-    border-bottom: 2px var(--navbarUnderline)  solid;
+    border-bottom: 2px cornflowerblue  solid;
     cursor: pointer;
 }
 
@@ -171,35 +150,39 @@ p {
 }
 
 .left-one h1 {
-    color: var(--crazyRightText);
+    color: var(--crazyRight);
 }
 
 .right-one {
     background-color: var(--crazyRight);
+    background-image: var(--crazyRight);
 }
 
 .left-two h1 {
-    color: var(--conquerRightText);
+    color: var(--conquerRight);
 }
 
 .right-two {
     background-color: var(--conquerRight);
+    background-image: var(--conquerRight);
 }
 
 .left-three h1 {
-    color: var(--sumRightText);
+    color: var(--sumRight);
 }
 
 .right-three {
     background-color: var(--sumRight);
+    background-image: var(--sumRight);
 }
 
 .left-four h1 {
-    color: var(--secaRightText);
+    color: var(--secaRight);
 }
 
 .right-four {
     background-color: var(--secaRight);
+    background-image: var(--secaRight);
 }
 
 .second-container {
@@ -268,7 +251,7 @@ p {
     background-color: var(--crazyRight);
 }
 
-.tops-conqure {
+.tops-conquer {
     background-color: var(--conquerRight);
 }
 
@@ -284,6 +267,7 @@ p {
     background-color: var(--secondaryColor);
     padding: 0 0 30px 0;
     border-radius: 0 0 20px 20px;
+    color: var(--mainText);
 }
 
 .bottoms h1 {
