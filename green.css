@@ -2,10 +2,11 @@
     --mainColor: #fff;
     --secondaryColor: #fff;
 
-    --crazyRight: rgb(0, 100, 0);
-    --conquerRight: forestgreen;
+    --crazyRight: rgb(0, 72, 0);
+    --conquerRight: darkgreen;
     --sumRight: green;
-    --secaRight: seagreen;
+    --secaRight: forestgreen;
+    color: ;
   
     --mainText: black;
     --secondaryText: #fff;
