@@ -114,7 +114,7 @@ p {
 
 .card.hidden {
     visibility: hidden;
-    transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;   
 }
 
 .card:hover {
@@ -220,7 +220,7 @@ p {
 }
 
 .big-card.visible {
-    top: 53%;
+    top: 390px;
     visibility: visible;
     opacity: 1;
 }
@@ -331,7 +331,7 @@ p {
     }
 
     .big-card.visible {
-        top: 58%;
+        top: 385px;
     }
 }
 
@@ -347,21 +347,37 @@ p {
     }
 
     .right {
-        width: 60%;
+        width: 50%;
     }
 
     .left {
-        width: 40%;
+        width: 50%;
     }
 
     .big-card {
-        width: 94vw;
+        width: 75vw;
+    }
+
+    .container {
+        align-items: center;
+    }
+
+    .content {
+        width: 70%;
     }
 }
 
 @media (max-width: 591px) {
     .big-card.visible {
-        top: 62%;
+        top: 410px;
+    }
+
+    .right {
+        width: 40%;
+    }
+
+    .left {
+        width: 60%;
     }
 }
 
@@ -383,11 +399,7 @@ p {
         margin-bottom: 0;
     }
 
-    .big-card {
-        width: 93vw;
-    }
-
     .big-card.visible {
-        top: 63%;
+        top: 415px;
     }
 }
