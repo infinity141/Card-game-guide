@@ -57,7 +57,7 @@ p {
 }
 
 .nav {
-    height: 100px;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -96,10 +96,8 @@ p {
 }
 
 .content {
-    margin: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     height: 100%;
     align-items: center;
 }
@@ -306,4 +304,90 @@ p {
 .bottoms p {
     margin: 20px 0;
     text-align: justify;
+}
+
+@media (max-width: 1200px) {
+    .content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1em;
+        margin: 1em 2em 1em 1em;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .right {
+        width: 40%;
+    }
+
+    .left {
+        width: 60%;
+    }
+
+    .big-card {
+        width: 96vw;
+    }
+
+    .big-card.visible {
+        top: 58%;
+    }
+}
+
+@media (max-width: 700px) {
+    .content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 1em 2em 1em 1em;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .right {
+        width: 60%;
+    }
+
+    .left {
+        width: 40%;
+    }
+
+    .big-card {
+        width: 94vw;
+    }
+}
+
+@media (max-width: 591px) {
+    .big-card.visible {
+        top: 62%;
+    }
+}
+
+@media (max-width: 500px) {
+    .right {
+        width: 30%;
+    }
+
+    .left {
+        width: 70%;
+    }
+
+    .nav {
+        flex-direction: column;
+    }
+
+    .logo {
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .big-card {
+        width: 93vw;
+    }
+
+    .big-card.visible {
+        top: 63%;
+    }
 }
